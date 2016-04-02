@@ -1,0 +1,85 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!-- Latest compiled and minified CSS -->
+<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ <script src="../js/jqBootstrapValidation.js"></script>
+<!--
+<style>
+.error {color: #FF0000;}
+</style>
+-->
+ <title>User Form</title>
+</head>
+
+<body>
+
+	 <div class="container">
+
+   	<div class="starter-template">
+    	
+    		<h1>User Form</h1>
+        <p class="lead">Use this form to add your requirements and customizations.<br></p>
+      
+		</div><!-- /starter-template class -->
+		<div class="form-signin">
+			<form class="form-horizontal" role="form">
+	<div class="form-group">
+    <label class="control-label col-sm-4" for="sid">Domain ID:</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="sid" placeholder="Enter Domain ID">
+    </div>
+  </div>
+  
+	<div class="form-group">
+    <label class="control-label col-sm-4" for="mp">Match Parameter:</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="mp" placeholder="Enter Match Parameter">
+    </div>
+  </div>
+
+	<div class="form-group">
+    <label class="control-label col-sm-4" for="website">Match Parameter:</label>
+    <div class="col-sm-8">
+      <input type="url" class="form-control" id="website" placeholder="Enter url">
+    </div>
+  </div>
+   
+   <div class="control-group">
+    <label class="control-label">Email address</label>
+    <div class="controls">
+      <input type="email" />
+      <p class="help-block"></p>
+    </div>
+  </div>
+  </form>
+  </div>   
+  </div> <!-- end container -->
+  <div id="info"></div>
+<div class='container'>
+<div class="alert alert-success">
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">Email address</label>
+    <div class="controls">
+      <input type="email" />
+      <p class="help-block"></p>
+    </div>
+  </div>
+</form>
+</div></div>
+</body>
+</html>
+<script>
+  $(function () { $("input,select,textarea,url").not("[type=submit]").jqBootstrapValidation(); } );
+</script>

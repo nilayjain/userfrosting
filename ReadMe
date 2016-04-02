@@ -1,0 +1,10 @@
+UserFrosting-master.zip contains the userfrosting version 0.2.2 . First step is to install userfrosting on your server. Steps are mentioned in their readme.
+delete the install folder and make sure userfrosting is properly working on your system.
+mydb.tar.gz contains the mongo dump.
+userfrosting.sql contains the sql dump.
+restore the sql and mongo databases.
+now extract the UserFrosting-master.tar.gz file and copy this folder in place of the Userforsting-master folder currently on your server.
+done.
+
+NOTE: you would not need newfiles.tar.gz file. it is just for reference, the new files that we added to userfrosting. 
+Thanks :).
